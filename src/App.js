@@ -5,7 +5,7 @@ import react, { useState, useEffect } from "react";
 import axios from 'axios';
 
 function App() {
-  const apiKey = "df5c1b9390c44a370afaa0f876a1dc0f";
+  const apiKey =  "df5c1b9390c44a370afaa0f876a1dc0f";
 
   const [inputCity,setInputCity] = useState("");
   const [data, setData] = useState("delhi");
