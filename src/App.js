@@ -1,11 +1,13 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import react, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
+import config from "./config"
 
 import axios from 'axios';
 
 function App() {
-  const apiKey =  "df5c1b9390c44a370afaa0f876a1dc0f";
+  const apiKey =  config.apiKey;
+  //const apiKey =  "df5c1b9390c44a370afaa0f876a1dc0f";
 
   const [inputCity,setInputCity] = useState("");
   const [data, setData] = useState("delhi");
